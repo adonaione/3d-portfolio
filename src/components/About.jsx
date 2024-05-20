@@ -47,21 +47,13 @@ const About = () => {
 				variants={fadeIn("", "", 0.1, 1)}
 				className="mt-4 text-secondary text-[17px] max-w-3x1 leading-[30ps]"
 			>
-				In the dynamic realm of software development, my insatiable
-				thirst for knowledge fuels a relentless pursuit of emerging
-				technologies and industry trends, positioning me at the
-				forefront of innovation. With a meticulous approach to debugging
-				honed through years of hands-on experience, I navigate complex
-				challenges with ease, swiftly identifying root causes and
-				implementing effective solutions across the full stack.
-				Versatility is my forte; seamlessly transitioning between
-				technologies and frameworks, I facilitate cohesive collaboration
-				and drive the realization of robust, scalable software
-				solutions. Coupled with strong communication skills and a
-				collaborative mindset, I thrive within cross-functional teams,
-				consistently delivering projects that exceed expectations and
-				propel organizational success in today's competitive tech
-				landscape.
+				In the dynamic realm of software development, my expertise in
+				Python, React.js, and building RESTful APIs fuels innovation.
+				With meticulous debugging skills honed through hands-on
+				experience, I swiftly navigate challenges across the full stack.
+				Versatile and collaborative, I facilitate cohesive teamwork,
+				driving the realization of robust, scalable software solutions
+				that exceed expectations.
 			</motion.p>
 
 			<div className="mt-20 flex flex-wrap gap-10">
