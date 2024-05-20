@@ -8,20 +8,17 @@ import {
 	html,
 	css,
 	reactjs,
-	redux,
+	python,
+	flask,
+	swift,
 	tailwind,
 	nodejs,
 	mongodb,
 	git,
-	figma,
-	docker,
-	meta,
-	starbucks,
-	tesla,
-	shopify,
-	carrent,
-	jobit,
-	tripguide,
+	codingtemple,
+	adonaiandkaylee,
+	finesse,
+	blissfulbalance,
 	threejs,
 } from "../assets";
 
@@ -42,24 +39,28 @@ export const navLinks = [
 
 const services = [
 	{
-		title: "Web Developer",
+		title: "Full Stack Developer",
 		icon: web,
 	},
 	{
-		title: "React Native Developer",
+		title: "API Developer",
 		icon: mobile,
 	},
 	{
-		title: "Backend Developer",
+		title: "Database Management",
 		icon: backend,
 	},
 	{
-		title: "API Developer",
+		title: "Deployment and Maintenance",
 		icon: creator,
 	},
 ];
 
 const technologies = [
+	{
+		name: "python",
+		icon: python,
+	},
 	{
 		name: "HTML 5",
 		icon: html,
@@ -81,8 +82,8 @@ const technologies = [
 		icon: reactjs,
 	},
 	{
-		name: "Redux Toolkit",
-		icon: redux,
+		name: "Swift",
+		icon: swift,
 	},
 	{
 		name: "Tailwind CSS",
@@ -104,51 +105,49 @@ const technologies = [
 		name: "git",
 		icon: git,
 	},
+
 	{
-		name: "figma",
-		icon: figma,
-	},
-	{
-		name: "docker",
-		icon: docker,
+		name: "flask",
+		icon: flask,
 	},
 ];
 
 const experiences = [
 	{
-		title: "Software Engineer Trainee",
+		title: "Software Engineer Intern",
 		company_name: "Coding Temple",
-		icon: starbucks,
+		icon: codingtemple,
 		iconBg: "#383E56",
 		date: "February 2024 - April 2024",
 		points: [
-			"I underwent an intensive curriculum focusing on front-end and back-end development, collaborating on real-world projects and embracing agile practices. ",
-			"I delved into various programming languages, frameworks, and methodologies, honing my ability to translate conceptual ideas into tangible, functional solutions.",
-			"I actively engaged in code reviews, debugging sessions, and agile development practices, refining my proficiency in problem-solving and fostering a keen eye for detail. This equipped me with the technical expertise necessary and instilled in me a passion for creativity, collaboration, and excellence in software craftsmanship.",
+			"Developed and maintained robust, scalable web applications utilizing a full stack of technologies including HTML, Python, React, and Flask.",
+			"Leveraged Python to design and implement RESTful APIs, facilitating communication between the front-end and back-end systems.",
+			"Created dynamic and responsive UIs using React, focusing on enhancing user engagement and interaction, while implementing server-side logic and routing using Flask, ensuring smooth data flow and efficient request handling.",
 		],
 	},
 	{
 		title: "Facilitator | CEO",
 		company_name: "Adonai & Kaylee | Holistic Wellness",
-		icon: tesla,
+		icon: adonaiandkaylee,
 		iconBg: "#E6DEDD",
 		date: "July 2022 - Present",
 		points: [
-			"I adeptly juggled multiple roles to ensure the seamless operation of the establishment, laying a foundation that resonates with the responsibilities of a Software Developer. Focused on client satisfaction, I oversaw operations, led teams, and formed strategic partnerships.",
-			"I enhanced our digital presence through website development, optimizing user experience and operations.",
-			"This multifaceted role honed my skills in project management, problem-solving, and adaptability, developing  a strong candidate for a Software Developer role.",
+			"Juggled multiple roles to ensure the seamless operation of the establishment.",
+			"Focused on client satisfaction, I oversaw operations, led teams, and formed strategic partnerships.",
+			"Enhanced our digital presence through website development, optimizing user experience and operations.",
+			"Honed my skills in project management, problem-solving, and adaptability.",
 		],
 	},
 	{
 		title: "Barber",
 		company_name: "Finesse Barber Studio",
-		icon: shopify,
+		icon: finesse,
 		iconBg: "#383E56",
 		date: "Feb 2021 - August 2022",
 		points: [
-			"As a skilled Barber, I honed precision, creativity, and client satisfaction, traits essential for a Software Developer.",
-			"My meticulous approach and effective communication ensured personalized experiences, akin to understanding user needs in software development.",
-			"Adaptability to industry trends reflects readiness for technology's fast pace. With skills in problem-solving, creativity, and customer-centricity, I'm well-equipped for success as a Software Developer.",
+			"Established precision, creativity, and client satisfaction.",
+			"Meticulous approach and effective communication ensured personalized experiences.",
+			"Adaptability to industry trends, with skills in problem-solving, creativity, and customer-centricity.",
 		],
 	},
 	// {
@@ -194,27 +193,27 @@ const testimonials = [
 ];
 
 const projects = [
-	// 	{
-	// 		name: "Car Rent",
-	// 		description:
-	// 			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-	// 		tags: [
-	// 			{
-	// 				name: "react",
-	// 				color: "blue-text-gradient",
-	// 			},
-	// 			{
-	// 				name: "mongodb",
-	// 				color: "green-text-gradient",
-	// 			},
-	// 			{
-	// 				name: "tailwind",
-	// 				color: "pink-text-gradient",
-	// 			},
-	// 		],
-	// 		image: carrent,
-	// 		source_code_link: "https://github.com/",
-	// 	},
+	{
+		name: "Blissful Balance Yoga",
+		description:
+			"Web-based platform that allows users to create, retrieve, update, and delete a user and posts. Utilizes user authentication and authorization to ensure secure access to the platform.",
+		tags: [
+			{
+				name: "react",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "python",
+				color: "green-text-gradient",
+			},
+			{
+				name: "flask",
+				color: "pink-text-gradient",
+			},
+		],
+		image: blissfulbalance,
+		source_code_link: "https://github.com/adonaione/3d-portfolio",
+	},
 	// 	{
 	// 		name: "Job IT",
 	// 		description:
