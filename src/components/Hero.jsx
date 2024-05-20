@@ -20,9 +20,12 @@ const Hero = () => {
 						<span className="text-[#915eff]">Adonai</span>
 					</h1>
 					<p className={`${styles.heroSubText} mt-2 text-white-100`}>
-						I adeptly merge front-end UI/UX design principles with
-						robust back-end development expertise to craft dynamic
-						and user-centric digital solutions.
+						Versatile Full Stack Engineer adept at building robust
+						and scalable web applications, with a strong command of
+						both front-end and back-end technologies.
+						Problem-solving skills, collaborative mindset, and
+						passion for continuous learning make me a valuable asset
+						in any tech team.
 					</p>
 				</div>
 			</div>
