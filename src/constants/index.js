@@ -20,6 +20,7 @@ import {
 	finesse,
 	blissfulbalance,
 	threejs,
+	kaylee,
 } from "../assets";
 
 export const navLinks = [
@@ -153,14 +154,14 @@ const experiences = [
 ];
 
 const testimonials = [
-	// {
-	// 	testimonial:
-	// 		"I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-	// 	name: "Sara Lee",
-	// 	designation: "CFO",
-	// 	company: "Acme Co",
-	// 	image: "https://randomuser.me/api/portraits/women/4.jpg",
-	// },
+	{
+		testimonial:
+			"Working with Adonai is always such a pleasure, he quickly accomplishes any given tasks efficiently. He navigates spontaneous tasks with ease and delivers a beautiful outcome. He adds a unique atmosphere to anywhere he works that makes him a very valuable addition to any project/team.",
+		name: "Kaylee",
+		designation: "CEO",
+		company: "Adonai & Kaylee | Holistic Wellness",
+		image: kaylee,
+	},
 	// {
 	// 	testimonial:
 	// 		"I've never met a web developer who truly cares about their clients' success like Rick does.",

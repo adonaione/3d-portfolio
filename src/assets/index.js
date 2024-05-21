@@ -27,7 +27,10 @@ import adonaiandkaylee from "./company/adonaiandkaylee.png";
 
 import blissfulbalance from "./blissfulbalance.png";
 
+import kaylee from "./kaylee.png";	// Kaylee's photo
+
 export {
+	kaylee,
 	logo,
 	backend,
 	creator,
