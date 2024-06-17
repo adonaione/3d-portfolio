@@ -17,10 +17,11 @@ import {
 	git,
 	codingtemple,
 	adonaiandkaylee,
-	finesse,
+	cogno,
 	blissfulbalance,
 	threejs,
 	kaylee,
+	travis,
 } from "../assets";
 
 export const navLinks = [
@@ -119,7 +120,7 @@ const experiences = [
 		company_name: "Coding Temple",
 		icon: codingtemple,
 		iconBg: "#383E56",
-		date: "February 2024 - April 2024",
+		date: "February 2024 - Present",
 		points: [
 			"Developed and maintained robust, scalable web applications utilizing a full stack of technologies including HTML, Python, React, and Flask.",
 			"Leveraged Python to design and implement RESTful APIs, facilitating communication between the front-end and back-end systems.",
@@ -140,15 +141,15 @@ const experiences = [
 		],
 	},
 	{
-		title: "Barber",
-		company_name: "Finesse Barber Studio",
-		icon: finesse,
+		title: "Case Analyst II",
+		company_name: "Cognosante MVH, LLC",
+		icon: cogno,
 		iconBg: "#383E56",
-		date: "Feb 2021 - August 2022",
+		date: "January 2018 - August 2022",
 		points: [
-			"Established precision, creativity, and client satisfaction.",
-			"Meticulous approach and effective communication ensured personalized experiences.",
-			"Adaptability to industry trends, with skills in problem-solving, creativity, and customer-centricity.",
+			"Identifying and remediating consumer data issues related to health insurance exchange coverage.",
+			"Apply appropriate research and technical knowledge to resolve outstanding issues in a timely and accurate manner.",
+			"Responsible for making outbound calls to gather additional information as well as inform the consumer of the disposition of their care.",
 		],
 	},
 ];
@@ -162,14 +163,14 @@ const testimonials = [
 		company: "Adonai & Kaylee | Holistic Wellness",
 		image: kaylee,
 	},
-	// {
-	// 	testimonial:
-	// 		"I've never met a web developer who truly cares about their clients' success like Rick does.",
-	// 	name: "Chris Brown",
-	// 	designation: "COO",
-	// 	company: "DEF Corp",
-	// 	image: "https://randomuser.me/api/portraits/men/5.jpg",
-	// },
+	{
+		testimonial:
+			"Adonai is a dedicated and creative individual who consistently demonstrated excellent communication and collaboration skills. His ability to translate conceptual ideas into functional solutions, as seen in his innovative yoga app capstone project, truly sets him apart.",
+		name: "Travis Peck",
+		designation: "Instructor",
+		company: "Coding Temple",
+		image: travis,
+	},
 	// {
 	// 	testimonial:
 	// 		"After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
