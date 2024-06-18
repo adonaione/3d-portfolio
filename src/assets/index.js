@@ -24,12 +24,15 @@ import threejs from "./tech/threejs.svg";
 import finesse from "./company/finesse.png";
 import codingtemple from "./company/codingtemple.png";
 import adonaiandkaylee from "./company/adonaiandkaylee.png";
+import cogno from "./company/cogno.png";
 
 import blissfulbalance from "./blissfulbalance.png";
 
 import kaylee from "./kaylee.png";	// Kaylee's photo
+import travis from "./travis.png"; 
 
 export {
+	travis,
 	kaylee,
 	logo,
 	backend,
@@ -55,5 +58,6 @@ export {
 	adonaiandkaylee,
 	finesse,
 	codingtemple,
+	cogno,
 	blissfulbalance,
 };
